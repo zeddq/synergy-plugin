@@ -1,0 +1,12 @@
+{
+    \"Name\" : \"SynergyPlugin\",
+    \"Version\" : \"0.0.1\",
+    \"CompatVersion\" : \"0.0.1\",
+    \"Vendor\" : \"brightONE\",
+    \"Copyright\" : \"(C) brightONE\",
+    \"License\" : \"Put your license information here\",
+    \"Description\" : \"Put a short description of your plugin here\",
+    \"Url\" : \"http://www.brightone.pl\",
+    $$dependencyList
+}
+
