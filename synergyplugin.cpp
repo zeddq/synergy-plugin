@@ -779,7 +779,7 @@ void SynergyPlugin::updateToNewestVersion()
         QFuture<void> task = QtConcurrent::run(&relateFoldersWithProjectGrouping, sqaFolders);
         FutureProgress *progress =
             ProgressManager::addTask(task, tr("Updating Locator Caches"), Core::Constants::TASK_INDEX);
-        connect(progress, SIGNAL(finished()), this, SLOT(relateTasksWithProjectGrouping());
+        connect(progress, SIGNAL(finished()), this, SLOT(relateTasksWithProjectGrouping()));
     }
     else
     {
